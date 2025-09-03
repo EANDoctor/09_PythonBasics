@@ -1,0 +1,7 @@
+# print("Hello World!")
+print("My name is Levente.")
+print('Enter your fisrtname:')
+lastname = input()
+print('Enter your lastname:')
+firstname = input()
+print(f"Hello, {lastname} {firstname}!")
