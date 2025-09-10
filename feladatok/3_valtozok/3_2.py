@@ -4,4 +4,5 @@ Készíts egy rövid programot, amely egy változóban eltárol egy szót. Prób
 """
 
 szo = int(input("alma")) 
-print(szo) #A "szo" változó értéke nem alakítható át int típusúvá, ezért a program hibát jelez.
+print(szo)
+#ValueError: invalid literal for int() with base 10: 'alma'
