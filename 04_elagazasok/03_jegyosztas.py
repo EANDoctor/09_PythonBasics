@@ -22,4 +22,3 @@ elif pontszam <= 100:
     print(" Jeles")
 else:
     print("Hibás formátumot adtál meg! [0-100]")
-
