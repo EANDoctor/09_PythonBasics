@@ -9,12 +9,13 @@ A program azt is állapítsa meg, és közölje a felhasználóval, hogy kell-e 
 
 a = int(input("Add meg a terület szélességét cm-ben:"))
 b = int(input("Add meg a terület magasságát cm-ben:"))
-terület = a * b 
-csempe_területe = 20 * 20
-csempe_mennyiség = int(input("Mennyi csempénk van?"))
-csempe_szükséglet = (terület / csempe_területe) * 1.1
+csempe_mennyisege = int(input("Mennyi csempénk van ?"))
 
-if csempe_szükséglet >= terület:
-    print("baj van kell még csempe.")
-else:
+terulet = a * b 
+csempe_terulete = 20 * 20
+csempe_szukseglet = (terulet / csempe_terulete) * 1.1
+
+if csempe_szukseglet <= csempe_mennyisege:
     print("Minden rendben több csempénk van.")
+else:
+    print("Baj van kell még csempe.")
